@@ -1,4 +1,48 @@
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
+
+  Большинство цветов, шрифт, размеры текста 
+  и отступы удобно хранить в переменных,
+
+  ЦВЕТ РАЗМЕР-ШРИФТОВ РАДИУС 
+
 */
+
+:root {
+  --bg-rezerf: white;
+  --bg-url: url(../images/cover-image-light.png);
+  --bg-url: url(../images/cover-image-dark.png);
+  --accent-color-shadow: rgba(255, 0, 112, 1);
+  --logo-color: rgba(219, 0, 255, 1);
+  --footer-color: rgba(219, 0, 255, 1);
+  --text-color: rgba(241, 178, 206, 1);
+  --card-title-color: rgba(255, 0, 112, 1);
+  --conteiner-title-color: rgba(0, 0, 40, 1);
+  --button-color: rgba(255, 0, 112, 1);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-focus-color: rgba(255, 0, 112, 1);
+  --point-box-shadow: rgba(255, 0, 112, 1);
+  --decor-color: rgba(255, 0, 112, 1);
+  --rec-color:rgba(255, 0, 112, 1);
+  --link-text-shadow: rgba(255, 0, 112, 1);
+  --link-hover-color: rgba(241, 178, 206, 1);
+  --link-focus-color: rgba(241, 178, 206, 1);
+  --fon-bg-color: transparent;
+  --all-font-family: 'IBM Plex Mono', monospace;
+  --title-font-weight: bold;
+  --text-font-weight: 400;
+  --all-font-size: 18px;
+  --button-font-size: 18px;
+  --rec-line-height: 25px;
+  --logo-line-height: 83%;
+  --text-line-height: 23.4px;
+  --button-line-height: 18px;
+  --point-border-radius: 50%;
+  --link-text-decoration: none;
+
+  .header__rec {
+    display: none;
+  }
+  
+}
