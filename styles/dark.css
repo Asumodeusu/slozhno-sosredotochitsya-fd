@@ -35,3 +35,25 @@
 .theme-dark .header__rec {
   display: flex;
 }
+
+@media (prefers-color-scheme: dark) {
+  .page {
+  --bg-url: url(../images/cover-image-dark.png);
+  --bg-rezerf: white;
+  --accent-color-shadow: rgba(255, 0, 112, 1);
+  --logo-color: rgba(219, 0, 255, 1);
+  --footer-color: rgba(219, 0, 255, 1);
+  --text-color: rgba(241, 178, 206, 1);
+  --card-title-color: rgba(255, 0, 112, 1);
+  --conteiner-title-color: rgba(0, 0, 40, 1);
+  --button-color: rgba(255, 0, 112, 1);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --button-focus-color: rgba(255, 0, 112, 1);
+  --point-box-shadow: rgba(255, 0, 112, 1);
+  --decor-color: rgba(255, 0, 112, 1);
+  --rec-color: rgba(255, 0, 112, 1);
+  --link-text-shadow: rgba(255, 0, 112, 1);
+  --link-hover-color: rgba(241, 178, 206, 1);
+  --link-focus-color: rgba(241, 178, 206, 1);
+  }
+}
