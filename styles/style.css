@@ -1,15 +1,15 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-image: var(--bg-url);
   background-color: var(--bg-rezerf);
+  background-image: var(--bg__url-color);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  row-gap: 40px; 
-  align-content: start; 
+  row-gap: 40px;
+  align-content: start;
 }
 
 .header {

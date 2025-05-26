@@ -13,8 +13,8 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-url: url(../images/cover-image-light.png);
   --bg-rezerf: #000028;
+  --bg__url-color: url(../images/cover-image-light.png);
   --accent-color-shadow: rgba(255, 141, 203, 1);
   --logo-color: rgba(255, 194, 230, 1);
   --footer-color: rgba(255, 194, 230, 1);
