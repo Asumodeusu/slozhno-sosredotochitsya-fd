@@ -10,6 +10,7 @@
 */
 
 :root {
+  --color-rezerf: black;
   --bg-rezerf: white;
   --bg-url: url(../images/cover-image-light.png);
   --bg-url: url(../images/cover-image-dark.png);
@@ -40,8 +41,4 @@
   --button-line-height: 18px;
   --point-border-radius: 50%;
   --link-text-decoration: none;
-}
-
-.header__rec {
-  display: none;
 }
