@@ -9,6 +9,10 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+.theme-dark .page {
+  /* Вам также нужно будет написать ряд подобных селекторов */
   --bg-url: url(../images/cover-image-dark.png);
   --bg-rezerf: white;
   --accent-color-shadow: rgba(255, 0, 112, 1);
@@ -26,10 +30,6 @@
   --link-text-shadow: rgba(255, 0, 112, 1);
   --link-hover-color: rgba(241, 178, 206, 1);
   --link-focus-color: rgba(241, 178, 206, 1);
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
 
 .theme-dark .header__rec {
