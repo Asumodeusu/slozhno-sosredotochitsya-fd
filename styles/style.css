@@ -1,12 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-color: var(--bg-rezerf);
   background-image: var(--bg-url);
+  background-color: var(--bg-rezerf);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color: var(--color-rezerf);
 }
 
 .header {
