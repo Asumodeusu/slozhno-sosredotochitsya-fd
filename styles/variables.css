@@ -11,7 +11,7 @@
 
 :root {
   --bg-url: url(../images/cover-image-dark.png);
-  --bg-rezerf: white;
+  --bg-rezerf: #000028;
   --accent-color-shadow: rgba(255, 0, 112, 1);
   --logo-color: rgba(219, 0, 255, 1);
   --footer-color: rgba(219, 0, 255, 1);
