@@ -52,6 +52,8 @@
 }
 
 .header__rec {
+  display: flex;
+  align-items: center;
   position: absolute;
   color: var(--rec-color);
   font-family: var(--all-font-family);
