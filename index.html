@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <title>Сложно сосредоточиться</title>
-    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any"/>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -17,7 +17,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span class="header__rec">REC</span>
+      <span class="header__rec" aria-hidden="underfined">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -52,9 +52,9 @@
       </p>
     </header>
     <main class="content">
-      <section class="card__column">
-        <h2 class="card__column__title">Почему сосредоточиться так сложно</h2>
-        <div class="card__column-container">
+      <section class="card__fact">
+        <h2 class="card__fact__title">Почему сосредоточиться так сложно</h2>
+        <div class="card__fact-container">
           <article class="card__type">
             <h3 class="card__flood-title title-decor">Многозадачность</h3>
             <p class="card__flood-text">
@@ -64,7 +64,8 @@
               её просто не существует. Исследователи
               <a
                 class="card__look-more-link"
-                href="https://dana.org/news-and-insights/"
+                href="https://dana.org/news-and-insights/" 
+                target="_blank"
                 >выяснили</a
               >, что мозгу тяжело концентрироваться даже на двух делах
               одновременно. А когда в поле внимания попадает несколько важных
@@ -88,10 +89,10 @@
           </article>
         </div>
       </section>
-      <section class="card__column">
-        <h2 class="card__column__title">Что снижает концентрацию внимания?</h2>
-        <ul class="card__column-list">
-          <li class="card__column-item">
+      <section class="card__fact">
+        <h2 class="card__fact__title">Что снижает концентрацию внимания?</h2>
+        <ul class="card__fact-list">
+          <li class="card__fact-item">
             <article class="card__type">
               <h3 class="card__flood-title title-decor">Многозадачность</h3>
               <p class="card__flood-text">
@@ -104,7 +105,7 @@
               </p>
             </article>
           </li>
-          <li class="card__column-item">
+          <li class="card__fact-item">
             <article class="card__type">
               <h3 class="card__flood-title title-decor">Еда</h3>
               <p class="card__flood-text">
@@ -117,7 +118,7 @@
               </p>
             </article>
           </li>
-          <li class="card__column-item">
+          <li class="card__fact-item">
             <article class="card__type">
               <h3 class="card__flood-title title-decor">Гаджеты</h3>
               <p class="card__flood-text">
@@ -134,12 +135,12 @@
           </li>
         </ul>
       </section>
-      <section class="card__column">
-        <h2 class="card__column__title">
+      <section class="card__fact">
+        <h2 class="card__fact__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <div class="card__column-container">
+        <div class="card__fact-container">
           <h3 class="card__flood-title title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -174,6 +175,7 @@
               <a
                 class="card__look-more-link"
                 href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
+                target="_blank"
                 >показал</a
               >, что созерцание природы повышает концентрацию, в то время как
               после просмотра городских пейзажей она наоборот понижается. Можно
@@ -207,7 +209,7 @@
         <div class="gallery__many">
           <figure class="gallery__item">
             <img
-              src="../images/sunset.png"
+              src="images/sunset.png"
               alt="Закат"
               class="gallery__image"
               loading="lazy"
@@ -215,7 +217,7 @@
           </figure>
           <figure class="gallery__item">
             <img
-              src="../images/ice-cream.png"
+              src="images/ice-cream.png"
               alt="Мороженное"
               class="gallery__image"
               loading="lazy"
@@ -223,7 +225,7 @@
           </figure>
           <figure class="gallery__item">
             <img
-              src="../images/tape.png"
+              src="images/tape.png"
               alt="Касета"
               class="gallery__image"
               loading="lazy"
@@ -231,7 +233,7 @@
           </figure>
           <figure class="gallery__item">
             <img
-              src="../images/books.png"
+              src="images/books.png"
               alt="Книги"
               class="gallery__image"
               loading="lazy"
@@ -239,7 +241,7 @@
           </figure>
           <figure class="gallery__item">
             <img
-              src="../images/street.png"
+              src="images/street.png"
               alt="Улица"
               class="gallery__image"
               loading="lazy"

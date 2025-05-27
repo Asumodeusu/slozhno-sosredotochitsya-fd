@@ -13,8 +13,8 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg__url-color: url(../images/cover-image-light.png);
-  --bg-rezerf: #FFF1F7;
+  --bg-url-color: url(../images/cover-image-light.png);
+  --bg-rezerf-color: #FFF1F7;
   --accent-color-shadow: rgba(255, 141, 203, 1);
   --logo-color: rgba(255, 194, 230, 1);
   --footer-color: rgba(255, 194, 230, 1);
@@ -25,6 +25,7 @@
   --button-hover-color: rgba(50, 49, 45, 0.4);
   --button-focus-color: rgba(53, 52, 48, 1);
   --decor-color: rgba(255, 141, 203, 1);
+  --decorated-zone-color: rgba(53, 52, 48, 1);
   --link-text-shadow: rgba(255, 141, 203, 1);
   --link-hover-color: rgba(53, 52, 48, 1);
   --link-focus-color: rgba(53, 52, 48, 1);
@@ -36,8 +37,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg__url-color: url(../images/cover-image-light.png);
-    --bg-rezerf: #FFF1F7;
+    --bg-url-color: url(../images/cover-image-light.png);
+   --bg-rezerf-color: #FFF1F7;
     --accent-color-shadow: rgba(255, 141, 203, 1);
     --logo-color: rgba(255, 194, 230, 1);
     --footer-color: rgba(255, 194, 230, 1);
@@ -48,6 +49,7 @@
     --button-hover-color: rgba(50, 49, 45, 0.4);
     --button-focus-color: rgba(53, 52, 48, 1);
     --decor-color: rgba(255, 141, 203, 1);
+    --decorated-zone-color: rgba(53, 52, 48, 1);
     --link-text-shadow: rgba(255, 141, 203, 1);
   }
     .header__rec {
